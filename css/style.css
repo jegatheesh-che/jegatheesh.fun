@@ -78,7 +78,6 @@ html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-  overscroll-behavior: none;
 }
 
 html {
@@ -1737,18 +1736,23 @@ button,
   left: 0;
   width: 280px;
   height: 100vh;
+  height: 100dvh;
   background-color: var(--color-accent);
   z-index: 1000;
   display: flex;
   flex-direction: column;
   transform: translateX(-100%);
-  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.3s;
   box-shadow: 10px 0 30px rgba(0, 0, 0, 0.35);
   overflow-y: auto;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .mobile-drawer.open {
   transform: translateX(0);
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .mobile-drawer-header {
@@ -2010,27 +2014,42 @@ button,
 }
 
 @media (max-width: 900px) {
-  /* Body becomes the native scroller on mobile */
+  html {
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-y: auto;
+    overscroll-behavior-x: none;
+    touch-action: pan-y;
+  }
+
+  /* Body flows naturally with window as native hardware scroller */
   body {
     background-color: var(--color-card-bg);
     background-image: none;
-    overflow-y: auto;
     overflow-x: hidden;
+    overflow-y: visible;
     -webkit-overflow-scrolling: touch;
-    overscroll-behavior-y: contain;
+    overscroll-behavior: auto;
+    touch-action: pan-y;
+    min-height: 100dvh;
+    min-height: 100vh;
+    height: auto;
   }
 
   .stage-wrapper {
     padding: 0;
-    min-height: 100vh;
+    min-height: auto;
+    height: auto;
     align-items: flex-start;
     background-color: var(--color-card-bg);
     display: block; /* Remove flex centering so content flows naturally */
+    overflow: visible;
   }
 
   .card-container {
     max-width: 100%;
-    min-height: 100vh;
+    min-height: auto;
     height: auto;
     border-radius: 0;
     box-shadow: none;
@@ -2043,12 +2062,15 @@ button,
     display: none !important;
     position: relative;
     height: auto;
+    overflow: visible;
   }
 
   .view-panel.active-panel {
     display: block !important;
     position: relative;
-    min-height: calc(100vh - 80px);
+    min-height: auto;
+    height: auto;
+    overflow: visible;
   }
 
   .curved-bottom-nav {
@@ -2070,7 +2092,8 @@ button,
     display: flex;
     flex-direction: column;
     height: auto;
-    min-height: 100vh;
+    min-height: auto;
+    overflow: visible;
   }
 
   .home-right {
@@ -2148,7 +2171,7 @@ button,
   .inner-app-layout.active-layout {
     display: block !important;
     height: auto;
-    min-height: 100vh;
+    min-height: auto;
     overflow: visible;
     width: 100%;
   }
@@ -2159,10 +2182,10 @@ button,
 
   .main-content {
     width: 100%;
-    padding: 24px 18px calc(110px + env(safe-area-inset-bottom, 0px));
+    padding: 24px 18px calc(120px + env(safe-area-inset-bottom, 0px));
     max-height: none;
     height: auto;
-    min-height: 100vh;
+    min-height: auto;
     overflow: visible;
   }
 
@@ -2623,4 +2646,29 @@ button,
   color: var(--color-text-muted, #666);
   margin: 0;
 }
+
+/* ==========================================================================
+   GLOBAL SITE FOOTER
+   ========================================================================== */
+.site-footer {
+  text-align: center;
+  padding: 24px 20px;
+  font-size: 12px;
+  color: #888;
+  font-family: var(--font-body, sans-serif);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  letter-spacing: 0.5px;
+  position: relative;
+  z-index: 10;
+}
+
+@media (max-width: 900px) {
+  .site-footer {
+    padding-bottom: calc(120px + env(safe-area-inset-bottom, 0px)) !important;
+    background-color: var(--color-card-bg);
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    color: #666;
+  }
+}
+
 

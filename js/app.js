@@ -307,7 +307,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function applyDOMViewSwitch(targetView) {
     // Reset Scroll Position on Mobile & Desktop
-    window.scrollTo({ top: 0, behavior: 'instant' });
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
     if (mainContent) mainContent.scrollTop = 0;
 
     // Update Dock Active States
@@ -1102,9 +1104,12 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // --------------------------------------------------------------------------
-  // 9. 3D INTERACTIVE CARD TILT PHYSICS (Touch & Pointer)
+  // 9. 3D INTERACTIVE CARD TILT PHYSICS (Desktop Hover Only)
   // --------------------------------------------------------------------------
   function setup3DCardTilt() {
+    // Only run on desktop devices with hover & fine pointers to ensure 100% smooth mobile scrolling
+    if (!window.matchMedia('(hover: hover) and (pointer: fine)').matches) return;
+
     portfolioCards.forEach(card => {
       let bounds = null;
 
@@ -1114,9 +1119,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
       function onMove(e) {
         if (!bounds) bounds = card.getBoundingClientRect();
-        const clientX = e.clientX || (e.touches && e.touches[0].clientX);
-        const clientY = e.clientY || (e.touches && e.touches[0].clientY);
-        if (!clientX || !clientY) return;
+        const clientX = e.clientX;
+        const clientY = e.clientY;
+        if (clientX === undefined || clientY === undefined) return;
 
         const x = clientX - bounds.left;
         const y = clientY - bounds.top;
@@ -1137,11 +1142,6 @@ document.addEventListener('DOMContentLoaded', () => {
       card.addEventListener('mouseenter', onEnter);
       card.addEventListener('mousemove', onMove);
       card.addEventListener('mouseleave', onLeave);
-
-      card.addEventListener('touchstart', onEnter, { passive: true });
-      card.addEventListener('touchmove', onMove, { passive: true });
-      card.addEventListener('touchend', onLeave);
-      card.addEventListener('touchcancel', onLeave);
     });
   }
 
@@ -1153,6 +1153,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const ambientGlow = document.getElementById('ambientGlowMesh');
   if (ambientGlow) {
     window.addEventListener('pointermove', (e) => {
+      if (e.pointerType === 'touch') return; // Don't trigger during mobile touch gestures
       const moveX = (e.clientX / window.innerWidth - 0.5) * 35;
       const moveY = (e.clientY / window.innerHeight - 0.5) * 35;
       gsap.to(ambientGlow, {
