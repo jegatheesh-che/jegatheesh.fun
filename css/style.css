@@ -2770,43 +2770,6 @@ button,
   font-weight: 500;
 }
 
-.call-float-btn {
-  pointer-events: auto;
-  position: relative;
-  width: 58px;
-  height: 58px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, #007AFF 0%, #0056b3 100%);
-  color: #FFFFFF;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 8px 24px rgba(0, 122, 255, 0.42), 0 2px 6px rgba(0, 0, 0, 0.2);
-  transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.25s ease;
-  text-decoration: none;
-}
-
-.call-float-btn:hover {
-  transform: scale(1.08) translateY(-2px);
-  box-shadow: 0 12px 28px rgba(0, 122, 255, 0.55), 0 4px 10px rgba(0, 0, 0, 0.3);
-}
-
-.call-float-btn:active {
-  transform: scale(0.95);
-}
-
-.call-icon-svg {
-  width: 28px;
-  height: 28px;
-  fill: #FFFFFF;
-  z-index: 2;
-  transition: transform 0.25s ease;
-}
-
-.call-float-btn:hover .call-icon-svg {
-  transform: rotate(-8deg) scale(1.05);
-}
-
 .wa-float-btn {
   pointer-events: auto;
   position: relative;
@@ -2926,14 +2889,12 @@ button,
     right: 16px;
   }
 
-  .wa-float-btn,
-  .call-float-btn {
+  .wa-float-btn {
     width: 52px;
     height: 52px;
   }
 
-  .wa-icon-svg,
-  .call-icon-svg {
+  .wa-icon-svg {
     width: 28px;
     height: 28px;
   }
