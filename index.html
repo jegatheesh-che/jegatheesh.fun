@@ -40,10 +40,12 @@
   <!-- ============================================================
        FAVICON (SVG — works in all modern browsers)
   ============================================================ -->
+  <link rel="icon" href="https://www.jegatheesh.fun/favicon.ico" sizes="any">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23111'/><text y='.9em' font-size='70' x='50%' text-anchor='middle' dominant-baseline='hanging' font-family='Arial Black,sans-serif' font-weight='900' fill='%23CCFF00'>J</text></svg>">
-  <link rel="icon" type="image/jpeg" href="https://www.jegatheesh.fun/assets/images/jegatheesh.jpeg">
-  <link rel="apple-touch-icon" href="https://www.jegatheesh.fun/assets/images/jegatheesh.jpeg">
-  <meta name="thumbnail" content="https://www.jegatheesh.fun/assets/images/jegatheesh.jpeg">
+  <link rel="apple-touch-icon" href="https://www.jegatheesh.fun/favicon-192x192.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="https://www.jegatheesh.fun/favicon-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="https://www.jegatheesh.fun/favicon-512x512.png">
+  <meta name="thumbnail" content="https://www.jegatheesh.fun/favicon-512x512.png">
   <meta name="theme-color" content="#CCFF00">
 
   <!-- ============================================================
@@ -62,6 +64,9 @@
   <!-- ============================================================
        STRUCTURED DATA — JSON-LD
   ============================================================ -->
+  <!-- ============================================================
+       STRUCTURED DATA — JSON-LD (Knowledge Graph for Google, Perplexity & AI Search)
+  ============================================================ -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -70,13 +75,24 @@
         "@type": "Person",
         "@id": "https://www.jegatheesh.fun/#jegatheesh",
         "name": "Jegatheesh",
-        "alternateName": ["William Jegatheesh S", "Jegatheesh S", "Jegatheesh Designer"],
-        "jobTitle": "Website Designer & Founder",
+        "alternateName": ["William Jegatheesh S", "Jegatheesh S", "Jegatheesh Designer", "Jegatheesh Developer"],
+        "jobTitle": "Founder & Principal Web Designer",
+        "description": "Founder of Jegatheesh Web Studio, specialized in designing high-converting portfolio and business websites for photographers and creative visual studios.",
         "worksFor": {
           "@id": "https://www.jegatheesh.fun/#business"
         },
         "url": "https://www.jegatheesh.fun/",
         "image": "https://www.jegatheesh.fun/assets/images/jegatheesh.jpeg",
+        "knowsAbout": [
+          "Photography Portfolio Website Design",
+          "Web Development & Front-End Engineering",
+          "Search Engine Optimization (SEO)",
+          "Answer Engine Optimization (AEO)",
+          "Generative Engine Optimization (GEO)",
+          "GSAP Animations",
+          "UI/UX Design for Creative Professionals",
+          "Client Booking Conversion Funnels"
+        ],
         "sameAs": [
           "https://github.com/jegatheesh-che",
           "https://www.instagram.com/jegatheeshwebstudio.in",
@@ -89,23 +105,31 @@
         "@id": "https://www.jegatheesh.fun/#website",
         "url": "https://www.jegatheesh.fun/",
         "name": "Jegatheesh Web Studio",
-        "alternateName": ["Jegatheesh", "Jegatheesh Studio", "Jegatheesh Website"],
-        "description": "Professional website design for photographers by Jegatheesh",
+        "alternateName": ["Jegatheesh", "Jegatheesh Studio", "Jegatheesh Website", "Jegatheesh Fun"],
+        "description": "Bespoke, high-converting portfolio and business websites for photographers and creative studios by Jegatheesh.",
         "publisher": {
           "@id": "https://www.jegatheesh.fun/#business"
         },
         "inLanguage": "en"
       },
       {
-        "@type": ["ProfessionalService", "LocalBusiness"],
+        "@type": ["ProfessionalService", "LocalBusiness", "Organization"],
         "@id": "https://www.jegatheesh.fun/#business",
         "name": "Jegatheesh Web Studio",
-        "alternateName": ["Jegatheesh", "Jegatheesh Studio", "Jegatheesh Fun"],
+        "alternateName": ["Jegatheesh Studio", "Jegatheesh Fun", "Jegatheesh Web Design"],
         "legalName": "Jegatheesh Web Studio",
-        "description": "Jegatheesh Web Studio builds professional portfolio websites specifically for photographers. Founded by Jegatheesh, our websites help photographers showcase their work, attract new clients, and build authority online.",
+        "description": "Jegatheesh Web Studio designs and builds bespoke portfolio and business websites engineered specifically for photographers and creative studios. Founded by Jegatheesh, the studio delivers fast-loading, mobile-first websites with direct WhatsApp client booking integrations.",
         "url": "https://www.jegatheesh.fun/",
         "email": "jegatheesh.s1110@gmail.com",
         "telephone": "+919042454014",
+        "priceRange": "$$",
+        "areaServed": [
+          { "@type": "Country", "name": "Canada" },
+          { "@type": "Country", "name": "India" },
+          { "@type": "Country", "name": "United States" },
+          { "@type": "Country", "name": "United Kingdom" },
+          { "@type": "Country", "name": "Australia" }
+        ],
         "image": "https://www.jegatheesh.fun/assets/images/jegatheesh.jpeg",
         "sameAs": [
           "https://www.instagram.com/jegatheeshwebstudio.in",
@@ -116,24 +140,43 @@
         "founder": {
           "@id": "https://www.jegatheesh.fun/#jegatheesh"
         },
+        "knowsAbout": [
+          "Photographer Website Design",
+          "Photography Portfolio Web Development",
+          "Creative Studio Website Engineering",
+          "Lead Generation for Photographers",
+          "Mobile Responsive Web Design",
+          "Search Engine Optimization (SEO)"
+        ],
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
-          "name": "Photography Website Design Services",
+          "name": "Photography Web Studio Services",
           "itemListElement": [
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
                 "name": "Photographer Portfolio Website Design",
-                "description": "Custom professional portfolio websites built for photographers, including responsive design, fast loading, and easy client contact options."
+                "description": "Custom professional portfolio websites built for photographers, including responsive gallery design, zero image blur, fast loading, and direct WhatsApp / email client contact options.",
+                "provider": { "@id": "https://www.jegatheesh.fun/#business" }
               }
             },
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Photography Business Website",
-                "description": "Complete photography business websites with portfolio galleries, service descriptions, and lead generation contact forms."
+                "name": "Photography Business & Lead Generation Website",
+                "description": "Complete photography business websites with portfolio galleries, service & pricing breakdowns, Google SEO optimization, and client lead capture forms.",
+                "provider": { "@id": "https://www.jegatheesh.fun/#business" }
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Custom Creative Studio Web Development",
+                "description": "High-performance websites featuring fluid GSAP animations, interactive showcase experiences, and mobile-first design.",
+                "provider": { "@id": "https://www.jegatheesh.fun/#business" }
               }
             }
           ]
@@ -148,63 +191,55 @@
             "name": "Who is Jegatheesh?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Jegatheesh is a professional website designer, developer, and founder of Jegatheesh Web Studio. He specializes in designing bespoke, fast-loading portfolio websites for photographers and creative visual artists to help them showcase their work and attract clients."
+              "text": "Jegatheesh (William Jegatheesh S) is a professional website designer, front-end developer, and the founder of Jegatheesh Web Studio. He specializes in designing bespoke, fast-loading portfolio websites for photographers and creative visual artists to help them showcase their work and attract paying clients worldwide."
             }
           },
           {
             "@type": "Question",
-            "name": "What is Jegatheesh Web Studio?",
+            "name": "What is Jegatheesh Web Studio and what work do they do?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Jegatheesh Web Studio (www.jegatheesh.fun) is a boutique web design and development studio founded by Jegatheesh. The studio specializes in custom, mobile-responsive portfolio websites engineered specifically for photographers, replacing their dependence on social media with a dedicated, professional online home."
+              "text": "Jegatheesh Web Studio (www.jegatheesh.fun) is a specialized web design and development studio founded by Jegatheesh. The studio builds custom, mobile-responsive portfolio websites engineered specifically for photographers and creative studios, helping them build authority on Google and convert visitors into booked clients."
             }
           },
           {
             "@type": "Question",
-            "name": "Do photographers need a professional website?",
+            "name": "Why should photographers choose Jegatheesh Web Studio over Wix, Squarespace, or WordPress?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. While Instagram and Facebook are great for daily sharing, they don't give you full control over how your work is presented. A professional website builds credibility, helps potential clients find you on Google, and gives you a dedicated space to showcase your best work, share your services, and receive direct inquiries."
+              "text": "Generic site builders like Wix and WordPress plugins often produce bloated code that loads slowly, compresses photography heavily, and has generic designs. Jegatheesh Web Studio builds custom-coded, ultra-fast, bespoke websites that highlight high-resolution photography without speed loss, rank higher on Google SEO, and include direct WhatsApp booking flows."
             }
           },
           {
             "@type": "Question",
-            "name": "What should a photographer website include?",
+            "name": "Do photographers need a professional website instead of only Instagram?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "A good photographer website should include a portfolio gallery showcasing your best work, an about section that tells your story, a services/pricing page, client testimonials, and an easy way for potential clients to contact you. It should also load quickly and look great on mobile devices."
+              "text": "Yes. While Instagram is great for social reach, you do not own the platform and posts disappear in 24-48 hours. A professional website stays live on Google 24/7, ranks for local photography search queries, protects high-resolution photo quality, and acts as your official digital booking hub."
             }
           },
           {
             "@type": "Question",
-            "name": "How can a photographer get more clients online?",
+            "name": "What notable websites has Jegatheesh built?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "A professional website is the most reliable way to get photography clients online. Unlike social media where your posts get buried, a website stays visible on Google 24/7. When someone searches for a photographer in your area or style, your website can appear in search results and bring you direct inquiries."
+              "text": "Jegatheesh has designed and developed websites including KVM Creations Studio (www.kvmcreationsstudio.ca - Canadian photography studio), Surya Photography (www.suryaphotography.ca - Canadian photographer portfolio), Ram G Productions (www.ramgprods.com - visual media studio), and SMETA Engineering Services (www.smetaengineeringservices.com)."
             }
           },
           {
             "@type": "Question",
-            "name": "How long does it take to build a photography website?",
+            "name": "How long does it take to build a photography portfolio website?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The timeline depends on the complexity of the project. A focused portfolio website for a photographer can typically be completed within 1 to 2 weeks once all content and images are ready."
+              "text": "A tailored portfolio website for a photographer is typically completed and launched within 1 to 2 weeks once content and image selections are provided."
             }
           },
           {
             "@type": "Question",
-            "name": "Can I get a website even if I only have photos on Instagram?",
+            "name": "How can photographers get in touch with Jegatheesh?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Absolutely. Many photographers start with just their Instagram galleries and WhatsApp portfolios. We can build you a professional website using your existing photos and help you organize your best work into a stunning portfolio that impresses potential clients."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Why choose Jegatheesh Web Studio for my photography website?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Jegatheesh Web Studio specializes in building websites for photographers. We understand what photography clients look for, how to present visual work effectively, and how to make your website easy to find on Google. Our portfolio includes photography websites for studios in Canada and engineering service providers."
+              "text": "You can connect directly with Jegatheesh via WhatsApp at +91 9042454014, email at jegatheesh.s1110@gmail.com, or through his official website at www.jegatheesh.fun."
             }
           }
         ]
@@ -743,7 +778,7 @@
             </div>
 
             <div class="faq-body">
-              <p class="faq-intro">Common questions photographers ask about getting a professional website.</p>
+              <p class="faq-intro">Common questions photographers and creative studios ask about building a professional portfolio website with Jegatheesh Web Studio.</p>
 
               <div class="faq-list" id="faqList">
 
@@ -753,47 +788,57 @@
                     <span class="faq-icon">+</span>
                   </button>
                   <div class="faq-answer">
-                    <p>Jegatheesh is a professional website designer, developer, and founder of Jegatheesh Web Studio. He specializes in designing bespoke, fast-loading portfolio websites for photographers and creative visual artists to help them showcase their work and attract clients.</p>
+                    <p>Jegatheesh (William Jegatheesh S) is a professional website designer, front-end developer, and founder of <strong>Jegatheesh Web Studio</strong>. He specializes in designing bespoke, fast-loading portfolio websites for photographers and creative visual artists to help them showcase their work, build trust, and attract paying clients worldwide.</p>
                   </div>
                 </div>
 
                 <div class="faq-item">
                   <button class="faq-question" aria-expanded="false">
-                    What is Jegatheesh Web Studio?
+                    What is Jegatheesh Web Studio and what work do they do?
                     <span class="faq-icon">+</span>
                   </button>
                   <div class="faq-answer">
-                    <p>Jegatheesh Web Studio (www.jegatheesh.fun) is a boutique web design and development studio founded by Jegatheesh. The studio specializes in custom, mobile-responsive portfolio websites engineered specifically for photographers, replacing their dependence on social media with a dedicated, professional online home.</p>
+                    <p><strong>Jegatheesh Web Studio</strong> (<a href="https://www.jegatheesh.fun" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">www.jegatheesh.fun</a>) is a specialized web design studio founded by Jegatheesh. The studio builds custom, mobile-responsive portfolio websites specifically engineered for photographers, cinematographers, and creative businesses, replacing dependence on social media algorithms with a dedicated, high-converting digital booking asset.</p>
                   </div>
                 </div>
 
                 <div class="faq-item">
                   <button class="faq-question" aria-expanded="false">
-                    Do photographers need a professional website?
+                    Why choose Jegatheesh Web Studio over Wix, Squarespace, or WordPress?
                     <span class="faq-icon">+</span>
                   </button>
                   <div class="faq-answer">
-                    <p>Yes. While Instagram and Facebook are great for daily sharing, they don't give you full control over how your work is presented. A professional website builds credibility, helps potential clients find you on Google, and gives you a dedicated space to showcase your best work, share your services, and receive direct inquiries.</p>
+                    <p>Generic website builders like Wix, Squarespace, and bloated WordPress themes often suffer from heavy code, slow loading times, and aggressive photo compression that degrades photography quality. <strong>Jegatheesh Web Studio</strong> builds lightweight, custom-coded websites with zero image quality loss, modern animations, strong Google SEO optimization, and direct WhatsApp / email booking flows that convert visitors into clients.</p>
                   </div>
                 </div>
 
                 <div class="faq-item">
                   <button class="faq-question" aria-expanded="false">
-                    What should a photographer website include?
+                    Do photographers need a professional website instead of only Instagram?
                     <span class="faq-icon">+</span>
                   </button>
                   <div class="faq-answer">
-                    <p>A good photographer website should include a portfolio gallery showcasing your best work, an about section that tells your story, a clear list of services, client testimonials, and a simple way for potential clients to contact you. It should also load quickly and look great on mobile devices.</p>
+                    <p>Yes. While Instagram is great for short-term reach, posts get buried in 24 hours and you don't own the platform. A professional website stays visible on Google 24/7, allows clients to view your work in full uncompressed resolution, outlines your packages clearly, and gives you a professional advantage when competing for high-paying photography projects.</p>
                   </div>
                 </div>
 
                 <div class="faq-item">
                   <button class="faq-question" aria-expanded="false">
-                    How can a photographer get more clients online?
+                    What websites has Jegatheesh built?
                     <span class="faq-icon">+</span>
                   </button>
                   <div class="faq-answer">
-                    <p>A professional website is the most reliable way to get photography clients online. Unlike social media where your posts get buried, a website stays visible on Google 24/7. When someone searches for a photographer in your area or niche, your website can appear in search results and bring you direct inquiries.</p>
+                    <p>Jegatheesh has designed and developed bespoke websites including <strong>KVM Creations Studio</strong> (Canadian photography studio &mdash; <a href="https://www.kvmcreationsstudio.ca" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">www.kvmcreationsstudio.ca</a>), <strong>Surya Photography</strong> (Canadian photographer portfolio &mdash; <a href="https://www.suryaphotography.ca" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">www.suryaphotography.ca</a>), <strong>Ram G Productions</strong> (visual media studio &mdash; <a href="https://www.ramgprods.com" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">www.ramgprods.com</a>), and <strong>SMETA Engineering Services</strong> (<a href="https://www.smetaengineeringservices.com" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">www.smetaengineeringservices.com</a>).</p>
+                  </div>
+                </div>
+
+                <div class="faq-item">
+                  <button class="faq-question" aria-expanded="false">
+                    What should a high-converting photographer website include?
+                    <span class="faq-icon">+</span>
+                  </button>
+                  <div class="faq-answer">
+                    <p>An effective photography website includes: a curated high-impact portfolio gallery, an engaging story and credentials section, service packages & pricing transparency, client testimonials, lightning-fast mobile loading, and frictionless contact triggers (direct WhatsApp, call, and structured inquiry form).</p>
                   </div>
                 </div>
 
@@ -803,7 +848,7 @@
                     <span class="faq-icon">+</span>
                   </button>
                   <div class="faq-answer">
-                    <p>Absolutely. Many photographers start with just their Instagram galleries and WhatsApp portfolios. We can build you a professional website using your existing photos and help you organize your best work into a stunning portfolio that impresses potential clients.</p>
+                    <p>Absolutely. Many photographers start with just their Instagram galleries and phone folders. We help you curate, organize, and format your best visual work into a stunning, high-converting digital portfolio that makes a memorable impression on potential clients.</p>
                   </div>
                 </div>
 
@@ -813,17 +858,17 @@
                     <span class="faq-icon">+</span>
                   </button>
                   <div class="faq-answer">
-                    <p>The timeline depends on the scope of the project. A focused portfolio website for a photographer can typically be completed within 1 to 2 weeks once all content and images are ready. We keep the process simple and fast so your new website goes live quickly.</p>
+                    <p>A tailored portfolio website for a photographer is typically completed and launched within 1 to 2 weeks once your photo selections and initial details are ready. We keep the collaboration smooth and direct.</p>
                   </div>
                 </div>
 
                 <div class="faq-item">
                   <button class="faq-question" aria-expanded="false">
-                    Why choose Jegatheesh Web Studio for my photography website?
+                    How can photographers get in touch with Jegatheesh?
                     <span class="faq-icon">+</span>
                   </button>
                   <div class="faq-answer">
-                    <p>Jegatheesh Web Studio focuses specifically on building websites for photographers and creative businesses. We've built photography portfolio websites for studios in Canada and design websites that actually perform — fast, professional, and designed to turn visitors into clients. You can <a href="https://wa.me/919042454014" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">contact us directly on WhatsApp</a> to discuss your project.</p>
+                    <p>You can connect directly with Jegatheesh via WhatsApp at <a href="https://wa.me/919042454014" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">+91 9042454014</a>, email at <a href="mailto:jegatheesh.s1110@gmail.com" style="color: inherit; text-decoration: underline;">jegatheesh.s1110@gmail.com</a>, or through the contact panel on <a href="https://www.jegatheesh.fun" style="color: inherit; text-decoration: underline;">www.jegatheesh.fun</a>.</p>
                   </div>
                 </div>
 

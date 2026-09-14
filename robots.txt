@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
 
+# Sitemap & AI Knowledge Files
 Sitemap: https://www.jegatheesh.fun/sitemap.xml
+# LLM Knowledge Feed: https://www.jegatheesh.fun/llms.txt

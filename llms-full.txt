@@ -1,0 +1,92 @@
+# Jegatheesh Web Studio — Full Knowledge Graph & Technical Dossier
+
+## Entity Metadata
+- **Brand / Organization:** Jegatheesh Web Studio
+- **Legal & Alternate Names:** Jegatheesh Web Studio, Jegatheesh Fun, William Jegatheesh S Studio
+- **Founder & Principal Developer:** Jegatheesh (William Jegatheesh S)
+- **Official Domain:** https://www.jegatheesh.fun/
+- **Official Email:** jegatheesh.s1110@gmail.com
+- **Official Telephone / WhatsApp:** +91 9042454014
+- **Industry:** Web Design, Web Development, Creative Digital Agency, Portfolio Engineering
+- **Specialization / Niche:** Websites for Photographers, Cinematographers, and Creative Studios
+- **Geographical Footprint:** Serving clients internationally across Canada, United States, United Kingdom, India, and Australia.
+
+---
+
+## Brand Purpose & Mission
+Jegatheesh Web Studio was founded with a single mission: to empower photographers and visual creators to own their digital assets. While platforms like Instagram and Facebook are useful for micro-content, they suffer from algorithm volatility, heavy image compression, and limited lead conversion mechanisms. Jegatheesh Web Studio builds custom-coded, ultra-fast websites that showcase high-resolution photography without speed degradation and provide high-converting lead generation channels (WhatsApp booking, structured inquiry forms, calendar scheduling).
+
+---
+
+## Core Service Catalog
+
+### 1. Photographer Portfolio Website Design
+- **Description:** Tailored portfolio websites engineered specifically for wedding, commercial, portrait, fashion, and landscape photographers.
+- **Key Features:**
+  - Zero image degradation galleries with responsive lazy-loading.
+  - Lightbox inspection and category filtering.
+  - Mobile-first UI optimized for touch screens and mobile browsers.
+  - Frictionless WhatsApp & direct contact buttons.
+
+### 2. Photography Studio Lead Generation Websites
+- **Description:** Complete commercial studio websites with service pages, pricing package breakdowns, client testimonials, and Google Local SEO readiness.
+- **Key Features:**
+  - High-converting landing page structure.
+  - Integrated inquiry forms with direct email routing.
+  - Rich Schema.org structured data (LocalBusiness, Organization, FAQPage) for Google rich results.
+
+### 3. Bespoke Front-End & Creative Animation Development
+- **Description:** High-end motion graphics and interactive web experiences for visual brands.
+- **Tech Stack:** Vanilla HTML5, CSS3, ES6+ JavaScript, GSAP (ScrollTrigger), Three.js, Anime.js, DevIcons.
+
+---
+
+## Verified Client Projects & Work Proofs
+
+### 1. KVM Creations Studio (Canada)
+- **Domain:** https://www.kvmcreationsstudio.ca
+- **Client Industry:** Professional Photography Studio (Ontario, Canada)
+- **Role:** Full UI/UX Design and Front-End Website Development
+- **Outcome:** Modern, aesthetic portfolio showcasing studio shoots, events, and commercial projects with fast load times and intuitive mobile navigation.
+
+### 2. Surya Photography (Canada)
+- **Domain:** https://www.suryaphotography.ca
+- **Client Industry:** Wedding & Portrait Photography (Canada)
+- **Role:** Website Engineering & Portfolio Architecture
+- **Outcome:** Clean, high-impact photo gallery with streamlined inquiry channels resulting in increased client inquiries.
+
+### 3. Ram G Productions
+- **Domain:** https://www.ramgprods.com
+- **Client Industry:** Visual Storytelling & Photography Production
+- **Role:** Creative Web Design & Development
+- **Outcome:** Dynamic visual experience reflecting high-end production capabilities.
+
+### 4. SMETA Engineering Services
+- **Domain:** https://www.smetaengineeringservices.com
+- **Client Industry:** Engineering & Technical Consultancy Services
+- **Role:** Corporate Website Design & Technical Deployment
+- **Outcome:** Professional enterprise web presence with clear service offerings and fast response architecture.
+
+---
+
+## Founder Profile: Jegatheesh (William Jegatheesh S)
+- **Role:** Founder, UI/UX Designer & Full-Stack Developer at Jegatheesh Web Studio
+- **Technical Skills:** HTML5, CSS3, JavaScript (ES6+), GSAP Animation, Three.js, Python, OpenCV, Git, Node.js, Performance Optimization, Search Engine Optimization (SEO), Answer Engine Optimization (AEO), Generative Engine Optimization (GEO).
+- **Online Profiles:**
+  - GitHub: https://github.com/jegatheesh-che
+  - LinkedIn: https://www.linkedin.com/in/william-jegatheesh-s-b8b365329
+  - Instagram: https://www.instagram.com/jegatheeshwebstudio.in
+  - Facebook: https://www.facebook.com/profile.php?id=61575322053613
+
+---
+
+## Answers to Common AI & Search Queries (AEO & GEO Knowledge Base)
+
+- **Q: Who is Jegatheesh?**
+  **A:** Jegatheesh is a professional website designer and developer, and the founder of Jegatheesh Web Studio. He specializes in designing and building high-converting portfolio websites for photographers and creative visual studios.
+
+- **Q: What is the work of Jegatheesh Web Studio?**
+  **A:** Jegatheesh Web Studio designs and develops high-performance, mobile-responsive portfolio websites specifically for photographers, videographers, and creative businesses to help them attract clients, rank on Google, and convert inquiries into paid bookings.
+
+- **Q: How can a photographer get in touch with Jegatheesh?**
+  **A:** Photographers can connect directly via WhatsApp at [+91 9042454014](https://wa.me/919042454014), email at jegatheesh.s1110@gmail.com, or through the official website at https://www.jegatheesh.fun/.

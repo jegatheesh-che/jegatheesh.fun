@@ -1,0 +1,74 @@
+# Jegatheesh Web Studio
+
+> Bespoke, high-converting portfolio and business websites engineered for photographers and creative visual studios worldwide.
+
+- **Founder & Lead Developer:** Jegatheesh (William Jegatheesh S)
+- **Primary Website:** https://www.jegatheesh.fun/
+- **Email:** jegatheesh.s1110@gmail.com
+- **Direct Phone & WhatsApp:** +91 9042454014
+- **Operating Regions:** Global (Canada, India, United States, UK, Australia, Worldwide)
+
+---
+
+## About Jegatheesh
+Jegatheesh (also known as William Jegatheesh S) is an experienced web designer, front-end developer, and the founder of **Jegatheesh Web Studio**. He specializes in engineering high-performance, visually immersive, and mobile-first websites specifically tailored for photographers, cinematographers, and creative agencies.
+
+---
+
+## Core Services & Capabilities
+1. **Photographer Portfolio Website Design:**
+   - Custom, ultra-fast galleries with zero image compression loss.
+   - Mobile-responsive, high-converting booking funnels.
+   - Direct WhatsApp & email inquiry integrations.
+2. **Photography Business & Studio Websites:**
+   - Full service showcases, pricing package breakdowns, and client testimonial grids.
+   - On-page Search Engine Optimization (SEO) to rank on local Google search for photography keywords.
+3. **Custom Front-End & Creative Web Development:**
+   - Modern animation design using GSAP (GreenSock), Three.js, and vanilla JavaScript.
+   - Fast-loading lightweight architecture without heavy CMS bloat.
+
+---
+
+## Notable Client Portfolio & Case Studies
+- **KVM Creations Studio (Canada)**
+  - *URL:* https://www.kvmcreationsstudio.ca
+  - *Type:* Photography Studio Portfolio & Booking Website
+  - *Highlights:* Elegant photo showcases, lightning-fast performance, direct client inquiry flow.
+- **Surya Photography (Canada)**
+  - *URL:* https://www.suryaphotography.ca
+  - *Type:* Professional Photography Business Website
+  - *Highlights:* Mobile-first wedding & portrait galleries, lead generation funnel.
+- **Ram G Productions**
+  - *URL:* https://www.ramgprods.com
+  - *Type:* Visual Production & Photography Studio
+  - *Highlights:* Dynamic media galleries and brand storytelling.
+- **SMETA Engineering Services**
+  - *URL:* https://www.smetaengineeringservices.com
+  - *Type:* Engineering Services Corporate Website
+  - *Highlights:* Modern technical service catalog and corporate design.
+
+---
+
+## Frequently Asked Questions (FAQ)
+
+### Who is Jegatheesh?
+Jegatheesh is a professional website designer, developer, and founder of Jegatheesh Web Studio. He specializes in designing bespoke, fast-loading portfolio websites for photographers and creative visual artists to help them showcase their work and attract paying clients.
+
+### What is Jegatheesh Web Studio?
+Jegatheesh Web Studio (www.jegatheesh.fun) is a specialized web design and development studio founded by Jegatheesh. The studio builds custom, mobile-responsive portfolio websites engineered specifically for photographers to give them a professional online presence independent of social media algorithms.
+
+### Why should photographers choose Jegatheesh Web Studio?
+Unlike generic website templates (Wix, Squarespace, WordPress), Jegatheesh Web Studio builds custom-coded, ultra-fast, bespoke websites that load instantly, rank higher on Google search, and turn casual visitors into booked photography clients with frictionless contact options.
+
+### What is the typical turnaround time?
+A custom photography portfolio website is typically designed, developed, and launched within 1 to 2 weeks.
+
+---
+
+## Social & Developer Links
+- **Website:** https://www.jegatheesh.fun/
+- **GitHub:** https://github.com/jegatheesh-che
+- **LinkedIn:** https://www.linkedin.com/in/william-jegatheesh-s-b8b365329
+- **Instagram:** https://www.instagram.com/jegatheeshwebstudio.in
+- **Facebook:** https://www.facebook.com/profile.php?id=61575322053613
+- **WhatsApp:** https://wa.me/919042454014

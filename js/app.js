@@ -1,6 +1,7 @@
 /**
- * BENJAMIN SMITH — PORTFOLIO APPLICATION
+ * JEGATHEESH WEB STUDIO — PORTFOLIO APPLICATION
  * Interactive Controller & GSAP Animations
+ * Founder: Jegatheesh (William Jegatheesh S)
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -121,11 +122,25 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Initialize curved nav position and home entrance
+  // Initialize curved nav position and deep-linked view from URL hash
   setTimeout(() => {
-    updateCurvedNav('home', false);
-    initScrollTriggerForView('home');
+    const initialHash = window.location.hash.replace('#', '').trim();
+    const targetInit = normalizeViewName(initialHash);
+    if (targetInit && targetInit !== 'home') {
+      applyDOMViewSwitch(targetInit);
+      updateCurvedNav(targetInit, false);
+      initScrollTriggerForView(targetInit);
+    } else {
+      updateCurvedNav('home', false);
+      initScrollTriggerForView('home');
+    }
   }, 80);
+
+  window.addEventListener('popstate', () => {
+    const hash = window.location.hash.replace('#', '').trim();
+    const target = normalizeViewName(hash || 'home');
+    navigateTo(target, false);
+  });
 
   window.addEventListener('resize', () => {
     isNotchInitialized = false;
@@ -420,10 +435,18 @@ document.addEventListener('DOMContentLoaded', () => {
     return lower;
   }
 
-  function navigateTo(rawTarget) {
+  function navigateTo(rawTarget, updateHistory = true) {
     const targetView = normalizeViewName(rawTarget);
     if (targetView === currentView || isTransitioning) return;
     isTransitioning = true;
+
+    // Update browser URL hash for SEO, AEO & deep-linking
+    if (updateHistory) {
+      const hash = (targetView === 'home') ? '' : '#' + targetView;
+      if (window.location.hash !== hash) {
+        history.pushState({ view: targetView }, '', hash || window.location.pathname);
+      }
+    }
 
     // Accessibility: Reduced Motion
     if (
