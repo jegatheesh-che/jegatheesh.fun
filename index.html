@@ -44,8 +44,7 @@
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23111'/><text y='.9em' font-size='70' x='50%' text-anchor='middle' dominant-baseline='hanging' font-family='Arial Black,sans-serif' font-weight='900' fill='%23CCFF00'>J</text></svg>">
   <link rel="apple-touch-icon" href="https://www.jegatheesh.fun/favicon-192x192.png">
   <link rel="icon" type="image/png" sizes="192x192" href="https://www.jegatheesh.fun/favicon-192x192.png">
-  <link rel="icon" type="image/png" sizes="512x512" href="https://www.jegatheesh.fun/favicon-512x512.png">
-  <meta name="thumbnail" content="https://www.jegatheesh.fun/favicon-512x512.png">
+  <link rel="manifest" href="/site.webmanifest">
   <meta name="theme-color" content="#CCFF00">
 
   <!-- ============================================================
@@ -148,6 +147,13 @@
           "Mobile Responsive Web Design",
           "Search Engine Optimization (SEO)"
         ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5.0",
+          "reviewCount": "10",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
           "name": "Photography Web Studio Services",
@@ -183,8 +189,48 @@
         }
       },
       {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.jegatheesh.fun/#breadcrumbs",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.jegatheesh.fun/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "About Me",
+            "item": "https://www.jegatheesh.fun/#about"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Portfolio & Work",
+            "item": "https://www.jegatheesh.fun/#portfolio"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "FAQ",
+            "item": "https://www.jegatheesh.fun/#faq"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Contact",
+            "item": "https://www.jegatheesh.fun/#contact"
+          }
+        ]
+      },
+      {
         "@type": "FAQPage",
         "@id": "https://www.jegatheesh.fun/#faq",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".home-bio", ".about-description", ".faq-answer"]
+        },
         "mainEntity": [
           {
             "@type": "Question",
@@ -276,7 +322,7 @@
     <div class="mobile-drawer" id="mobileDrawer">
       <div class="mobile-drawer-header">
         <div class="mobile-avatar-wrap">
-              <img src="assets/images/jegatheesh.jpeg" alt="Jegatheesh — Website Designer for Photographers" class="mobile-avatar" width="48" height="48">
+          <img src="assets/images/jegatheesh.webp" alt="Jegatheesh — Website Designer for Photographers" class="mobile-avatar" width="48" height="48">
         </div>
         <div class="mobile-profile-info">
           <h4>Jegatheesh</h4>
@@ -427,7 +473,7 @@
           <!-- Right Column: Signature Hero Portrait -->
           <div class="home-right">
             <div class="portrait-box">
-              <img src="assets/images/jegatheesh.jpeg" alt="Jegatheesh — Website Designer for Photographers" class="hero-img" id="heroImg" width="400" height="500" loading="eager">
+              <img src="assets/images/jegatheesh.webp" alt="Jegatheesh — Website Designer for Photographers" class="hero-img" id="heroImg" width="400" height="500" loading="eager">
             </div>
           </div>
         </div>
@@ -440,9 +486,9 @@
         
         <!-- Persistent Left Sidebar for Inner Views -->
         <aside class="left-sidebar" id="leftSidebar">
-          <!-- Benjamin Headshot on Top -->
+          <!-- Sidebar Headshot -->
           <div class="sidebar-avatar-wrap">
-            <img src="assets/images/jegatheesh.jpeg" alt="Jegatheesh — Website Designer for Photographers" class="sidebar-avatar" width="80" height="80">
+            <img src="assets/images/jegatheesh.webp" alt="Jegatheesh — Website Designer for Photographers" class="sidebar-avatar" width="80" height="80">
           </div>
           
           <!-- Yellow Navigation Column -->
@@ -691,10 +737,10 @@
               <div class="portfolio-grid" id="portfolioGrid">
 
                 <!-- Category: Web Design Items -->
-                <div class="portfolio-card" data-category="photo" data-title="KVM Creations Studio - www.kvmcreationsstudio.ca" data-img="assets/images/portfolio-kvm.jpg">
+                <div class="portfolio-card" data-category="photo" data-title="KVM Creations Studio - www.kvmcreationsstudio.ca" data-img="assets/images/portfolio-kvm.webp">
                   <span class="card-badge"><span class="badge-dot"></span> Photography</span>
                   <div class="card-thumb">
-                    <img src="assets/images/portfolio-kvm.jpg" alt="KVM Creations Studio photography portfolio website designed by Jegatheesh" class="parallax-img" loading="lazy" width="600" height="400">
+                    <img src="assets/images/portfolio-kvm.webp" alt="KVM Creations Studio photography portfolio website designed by Jegatheesh" class="parallax-img" loading="lazy" width="600" height="400">
                     <div class="card-overlay">
                       <div class="overlay-info">
                         <span class="overlay-title">KVM Creations Studio</span>
@@ -710,10 +756,10 @@
                   </div>
                 </div>
 
-                <div class="portfolio-card" data-category="photo" data-title="Ram G Productions - www.ramgprods.com" data-img="assets/images/portfolio-ramg.jpg">
+                <div class="portfolio-card" data-category="photo" data-title="Ram G Productions - www.ramgprods.com" data-img="assets/images/portfolio-ramg.webp">
                   <span class="card-badge"><span class="badge-dot"></span> Photography</span>
                   <div class="card-thumb">
-                    <img src="assets/images/portfolio-ramg.jpg" alt="Ram G Productions photography business website built by Jegatheesh" class="parallax-img" loading="lazy" width="600" height="400">
+                    <img src="assets/images/portfolio-ramg.webp" alt="Ram G Productions photography business website built by Jegatheesh" class="parallax-img" loading="lazy" width="600" height="400">
                     <div class="card-overlay">
                       <div class="overlay-info">
                         <span class="overlay-title">Ram G Productions</span>
@@ -729,10 +775,10 @@
                   </div>
                 </div>
 
-                <div class="portfolio-card" data-category="photo" data-title="Surya Photography - www.suryaphotography.ca" data-img="assets/images/portfolio-surya.jpg">
+                <div class="portfolio-card" data-category="photo" data-title="Surya Photography - www.suryaphotography.ca" data-img="assets/images/portfolio-surya.webp">
                   <span class="card-badge"><span class="badge-dot"></span> Photography</span>
                   <div class="card-thumb">
-                    <img src="assets/images/portfolio-surya.jpg" alt="Surya Photography professional portfolio website created by Jegatheesh" class="parallax-img" loading="lazy" width="600" height="400">
+                    <img src="assets/images/portfolio-surya.webp" alt="Surya Photography professional portfolio website created by Jegatheesh" class="parallax-img" loading="lazy" width="600" height="400">
                     <div class="card-overlay">
                       <div class="overlay-info">
                         <span class="overlay-title">Surya Photography</span>
@@ -748,10 +794,10 @@
                   </div>
                 </div>
 
-                <div class="portfolio-card" data-category="engineering" data-title="SMETA Engineering Services - www.smetaengineeringservices.com" data-img="assets/images/portfolio-smeta.jpg">
+                <div class="portfolio-card" data-category="engineering" data-title="SMETA Engineering Services - www.smetaengineeringservices.com" data-img="assets/images/portfolio-smeta.webp">
                   <span class="card-badge"><span class="badge-dot"></span> Engineering</span>
                   <div class="card-thumb">
-                    <img src="assets/images/portfolio-smeta.jpg" alt="SMETA Engineering Services business website developed by Jegatheesh" class="parallax-img" loading="lazy" width="600" height="400">
+                    <img src="assets/images/portfolio-smeta.webp" alt="SMETA Engineering Services business website developed by Jegatheesh" class="parallax-img" loading="lazy" width="600" height="400">
                     <div class="card-overlay">
                       <div class="overlay-info">
                         <span class="overlay-title">SMETA Engineering</span>
