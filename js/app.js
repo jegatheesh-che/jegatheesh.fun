@@ -953,6 +953,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       if (imgPath && lightbox) {
         lightboxImg.src = imgPath;
+        lightboxImg.alt = (title || 'Project Preview') + ' - Photography portfolio website by Jegatheesh Web Studio';
         lightboxTitle.textContent = title;
         lightbox.classList.add('active');
         lightbox.setAttribute('aria-hidden', 'false');
