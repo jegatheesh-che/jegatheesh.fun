@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- PRIMARY SEO METADATA -->
+  <title>Surya Photography Website Case Study | Jegatheesh Web Studio</title>
+  <meta name="description" content="Case study on how Jegatheesh Web Studio built a mobile-first, high-impact wedding and portrait photography portfolio website for Surya Photography in Canada.">
+  <meta name="keywords" content="Surya Photography, Surya Photography case study, photographer portfolio website, Jegatheesh Web Studio review, wedding photography website design">
+  <meta name="author" content="Jegatheesh">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.jegatheesh.fun/case-studies/surya-photography/">
+
+  <!-- OPEN GRAPH -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.jegatheesh.fun/case-studies/surya-photography/">
+  <meta property="og:title" content="Surya Photography Website Case Study | Jegatheesh Web Studio">
+  <meta property="og:description" content="Explore how Surya Photography launched a bespoke online portfolio that highlights high-resolution wedding photography with instant client booking flows.">
+  <meta property="og:image" content="https://www.jegatheesh.fun/assets/images/portfolio-surya.webp">
+  <meta property="og:site_name" content="Jegatheesh Web Studio">
+
+  <!-- TWITTER CARD -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Surya Photography Website Case Study | Jegatheesh Web Studio">
+  <meta name="twitter:description" content="Case study: How custom web development increased booking conversion for Surya Photography.">
+  <meta name="twitter:image" content="https://www.jegatheesh.fun/assets/images/portfolio-surya.webp">
+
+  <!-- FAVICON -->
+  <link rel="icon" href="https://www.jegatheesh.fun/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="https://www.jegatheesh.fun/favicon-192x192.png">
+
+  <!-- STRUCTURED DATA (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://www.jegatheesh.fun/case-studies/surya-photography/#article",
+        "headline": "Case Study: High-Performance Wedding Photography Portfolio for Surya Photography",
+        "description": "How Jegatheesh Web Studio designed a fast-loading, mobile-first photography portfolio website for Surya Photography in Canada.",
+        "image": "https://www.jegatheesh.fun/assets/images/portfolio-surya.webp",
+        "datePublished": "2026-08-05",
+        "dateModified": "2026-09-18",
+        "author": {
+          "@type": "Person",
+          "name": "Jegatheesh",
+          "url": "https://www.jegatheesh.fun/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jegatheesh Web Studio",
+          "url": "https://www.jegatheesh.fun/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.jegatheesh.fun/favicon-512x512.png"
+          }
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.jegatheesh.fun/case-studies/surya-photography/"
+        },
+        "about": [
+          {
+            "@type": "Organization",
+            "name": "Surya Photography",
+            "url": "https://www.suryaphotography.ca"
+          },
+          {
+            "@type": "Service",
+            "name": "Photographer Portfolio Website Design",
+            "provider": {
+              "@type": "Organization",
+              "name": "Jegatheesh Web Studio",
+              "url": "https://www.jegatheesh.fun/"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.jegatheesh.fun/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Case Studies",
+            "item": "https://www.jegatheesh.fun/#portfolio"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Surya Photography",
+            "item": "https://www.jegatheesh.fun/case-studies/surya-photography/"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg-dark: #0c0d10;
+      --bg-card: #15161c;
+      --text-main: #f0f1f5;
+      --text-muted: #a0a4b0;
+      --accent: #CCFF00;
+      --border: rgba(255, 255, 255, 0.08);
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: var(--font);
+      line-height: 1.7;
+      padding: 0 20px;
+    }
+    .header-nav {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--border);
+    }
+    .brand-logo {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: 1px;
+    }
+    .brand-logo span { color: var(--accent); }
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      margin-left: 20px;
+      transition: color 0.2s ease;
+    }
+    .nav-links a:hover { color: var(--accent); }
+    .article-container {
+      max-width: 820px;
+      margin: 40px auto 80px;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(204, 255, 0, 0.12);
+      color: var(--accent);
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      letter-spacing: 0.5px;
+    }
+    h1 {
+      font-size: clamp(28px, 4vw, 40px);
+      line-height: 1.25;
+      font-weight: 900;
+      margin-bottom: 20px;
+      color: #FFFFFF;
+    }
+    .meta-bar {
+      display: flex;
+      gap: 18px;
+      color: var(--text-muted);
+      font-size: 13px;
+      margin-bottom: 32px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    .featured-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 36px;
+    }
+    .featured-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+    }
+    .featured-item h4 {
+      font-size: 12px;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 4px;
+    }
+    .featured-item p {
+      font-size: 15px;
+      color: #FFFFFF;
+      font-weight: 600;
+    }
+    .featured-item a {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+    h2 {
+      font-size: 24px;
+      font-weight: 800;
+      margin: 36px 0 16px;
+      color: #FFFFFF;
+    }
+    p {
+      color: #CBD5E1;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    ul {
+      margin-left: 24px;
+      margin-bottom: 24px;
+      color: #CBD5E1;
+    }
+    li { margin-bottom: 10px; }
+    .quote-box {
+      background: rgba(204, 255, 0, 0.05);
+      border-left: 4px solid var(--accent);
+      padding: 20px 24px;
+      border-radius: 0 8px 8px 0;
+      margin: 30px 0;
+    }
+    .quote-text {
+      font-size: 16px;
+      font-style: italic;
+      color: #FFFFFF;
+      margin-bottom: 10px;
+    }
+    .quote-author {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--accent);
+    }
+    .cta-card {
+      background: linear-gradient(135deg, #1b1e16 0%, #15161c 100%);
+      border: 1px solid rgba(204, 255, 0, 0.3);
+      border-radius: 16px;
+      padding: 36px 30px;
+      text-align: center;
+      margin-top: 50px;
+    }
+    .cta-card h3 {
+      font-size: 24px;
+      color: #FFFFFF;
+      margin-bottom: 12px;
+    }
+    .cta-btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #111111;
+      text-decoration: none;
+      font-weight: 800;
+      padding: 14px 28px;
+      border-radius: 30px;
+      font-size: 15px;
+      margin-top: 14px;
+      letter-spacing: 0.5px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .cta-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(204, 255, 0, 0.4);
+    }
+    .site-footer {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px 0 60px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Header Navigation -->
+  <header class="header-nav">
+    <a href="https://www.jegatheesh.fun/" class="brand-logo">JEGATHEESH <span>WEB STUDIO</span></a>
+    <nav class="nav-links">
+      <a href="https://www.jegatheesh.fun/">Home</a>
+      <a href="https://www.jegatheesh.fun/#portfolio">Portfolio</a>
+      <a href="https://www.jegatheesh.fun/#faq">FAQ</a>
+      <a href="https://www.jegatheesh.fun/#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Main Case Study Content -->
+  <main class="article-container">
+    <span class="badge">CASE STUDY &middot; WEDDING &amp; PORTRAIT PHOTOGRAPHY</span>
+    <h1>Building an Ultra-Fast Wedding Photography Portfolio for Surya Photography</h1>
+    
+    <div class="meta-bar">
+      <span><strong>Client:</strong> Surya Photography (Canada)</span>
+      <span><strong>Studio:</strong> Jegatheesh Web Studio</span>
+      <span><strong>Live URL:</strong> <a href="https://www.suryaphotography.ca" target="_blank" rel="noopener" style="color:var(--accent);">www.suryaphotography.ca</a></span>
+    </div>
+
+    <div class="featured-box">
+      <div class="featured-grid">
+        <div class="featured-item">
+          <h4>Client Industry</h4>
+          <p>Wedding &amp; Portrait Photography</p>
+        </div>
+        <div class="featured-item">
+          <h4>Live Project</h4>
+          <p><a href="https://www.suryaphotography.ca" target="_blank" rel="noopener">suryaphotography.ca &nearr;</a></p>
+        </div>
+        <div class="featured-item">
+          <h4>Key Outcome</h4>
+          <p>Higher Inquiries &amp; Flawless Mobile Galleries</p>
+        </div>
+        <div class="featured-item">
+          <h4>Turnaround</h4>
+          <p>1 to 2 Weeks</p>
+        </div>
+      </div>
+    </div>
+
+    <h2>Project Overview</h2>
+    <p><strong>Surya Photography</strong> is a Canada-based professional photographer known for capturing timeless wedding moments, romantic couples shoots, and portraits. Surya needed a sleek, mobile-optimized digital portfolio that would allow prospective wedding couples to experience the full emotional depth of the imagery without sluggish page loading.</p>
+
+    <h2>The Core Objectives</h2>
+    <ul>
+      <li><strong>Showcase Rich Visual Galleries:</strong> Display wedding albums and photo collections with true color fidelity and razor-sharp clarity.</li>
+      <li><strong>Frictionless Inquiries:</strong> Provide couples with clear service details and one-tap contact pathways to check date availability.</li>
+      <li><strong>Speed on Mobile Networks:</strong> Ensure couples browsing on their smartphones experience zero lag, jitter, or pop-in while scrolling large photo collections.</li>
+    </ul>
+
+    <h2>Engineering the Solution</h2>
+    <p><strong>Jegatheesh Web Studio</strong> developed a custom front-end architecture focused on raw performance and aesthetic elegance:</p>
+    <ul>
+      <li><strong>Progressive Image Streaming:</strong> Employed adaptive resolution loading so mobile browsers download appropriate image sizes automatically, saving bandwidth while keeping retina displays crystal clear.</li>
+      <li><strong>Minimalist, Distraction-Free Layout:</strong> Designed a dark-mode, high-contrast visual stage that puts the photographer's imagery center stage without visual clutter.</li>
+      <li><strong>Integrated Call-to-Actions:</strong> Placed strategic inquiry triggers across wedding categories to guide couples directly to date booking.</li>
+    </ul>
+
+    <div class="quote-box">
+      <p class="quote-text">"Amazing job on our photography website! It looks incredibly professional and clean. We've already seen an increase in bookings and positive feedback from couples."</p>
+      <span class="quote-author">&mdash; Surya, Surya Photography (Canada)</span>
+    </div>
+
+    <h2>Key Results</h2>
+    <ul>
+      <li><strong>Increased Booking Rate:</strong> Direct booking conversion improved significantly due to frictionless mobile contact channels.</li>
+      <li><strong>High Client Trust:</strong> Couples and wedding planners now review a single authoritative website rather than fragmented social media posts.</li>
+    </ul>
+
+    <div class="cta-card">
+      <h3>Need a portfolio website for your photography?</h3>
+      <p>Partner with Jegatheesh Web Studio to create an elegant, lightning-fast digital booking hub.</p>
+      <a href="https://wa.me/919042454014?text=Hi%20Jegatheesh%2C%20I%20saw%20the%20Surya%20Photography%20case%20study%20and%20want%20to%20discuss%20my%20website." target="_blank" rel="noopener" class="cta-btn">DISCUSS YOUR PROJECT &rarr;</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 <a href="https://www.jegatheesh.fun/" style="color:#CCFF00; text-decoration:none;">Jegatheesh Web Studio</a> &middot; Websites Engineered for Photographers</p>
+  </footer>
+
+</body>
+</html>

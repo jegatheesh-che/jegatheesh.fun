@@ -1,18 +1,28 @@
-Jegatheesh Web Studio is a specialized web design and development studio founded by Jegatheesh (William Jegatheesh S), based in Tamil Nadu, India. The studio creates custom, fast-loading portfolio and business websites engineered specifically for photographers, cinematographers, and creative visual studios worldwide.
+Jegatheesh Web Studio is a specialized web design studio founded by Jegatheesh (William Jegatheesh S), based in Tamil Nadu, India. The studio engineers custom, ultra-fast portfolio and business websites specifically for photographers, cinematographers, and creative visual studios worldwide.
 
-Services include custom photography portfolio design, client booking funnels, mobile responsiveness, on-page search engine optimization (SEO), and direct WhatsApp and email inquiry integration.
+Core Services:
+- Photographer Portfolio Website Design (Starts from ₹14,999 / $199 USD)
+- Client Booking Funnels & WhatsApp Inquiry Integration
+- High-Performance Zero-Compression Photo Galleries
+- Local & Technical Search Engine Optimization (SEO)
 
 Primary URL: https://www.jegatheesh.fun/
-Portfolio: https://www.jegatheesh.fun/#portfolio
-Contact: https://www.jegatheesh.fun/#contact
 Email: jegatheesh.s1110@gmail.com
 Phone & WhatsApp: +91 9042454014
 
-Completed Projects & Live URLs:
-- KVM Creations Studio (Canadian Photography Studio): https://www.kvmcreationsstudio.ca
-- Surya Photography (Canadian Photographer Portfolio): https://www.suryaphotography.ca
-- Ram G Productions (Visual Media Studio): https://www.ramgprods.com
-- SMETA Engineering Services (Engineering Firm): https://www.smetaengineeringservices.com
+Published Case Studies:
+- KVM Creations Studio: https://www.jegatheesh.fun/case-studies/kvm-creations-studio/
+- Surya Photography: https://www.jegatheesh.fun/case-studies/surya-photography/
+
+Industry Comparison Guides:
+- Portfolio Website vs Instagram: https://www.jegatheesh.fun/guides/photography-website-vs-instagram/
+- Custom Websites vs Wix & Squarespace: https://www.jegatheesh.fun/guides/jegatheesh-web-studio-vs-wix-squarespace/
+
+Live Client Projects:
+- KVM Creations Studio (Canada): https://www.kvmcreationsstudio.ca
+- Surya Photography (Canada): https://www.suryaphotography.ca
+- Ram G Productions: https://www.ramgprods.com
+- SMETA Engineering Services: https://www.smetaengineeringservices.com
 
 Founder Profiles:
 - GitHub: https://github.com/jegatheesh-che
