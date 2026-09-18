@@ -2492,7 +2492,7 @@ button,
   position: absolute;
   width: 8px;
   height: 8px;
-  background-color: #CCFF00;
+  background-color: var(--color-accent, #FEBA31);
   border-radius: 50%;
 }
 
@@ -2537,7 +2537,7 @@ button,
 .ncc-icon svg {
   width: 20px;
   height: 20px;
-  color: #CCFF00;
+  color: var(--color-accent, #FEBA31);
 }
 
 .ncc-text {
@@ -2565,7 +2565,7 @@ button,
 
 .faq-intro {
   font-size: 14px;
-  color: var(--color-text-muted, #888);
+  color: #555555;
   margin-bottom: 20px;
   letter-spacing: 0.3px;
 }
@@ -2573,20 +2573,22 @@ button,
 .faq-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
 }
 
 .faq-item {
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
   overflow: hidden;
-  background: rgba(255,255,255,0.03);
-  transition: border-color 0.25s ease;
+  background: #FFFFFF;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
 }
 
 .faq-item.open,
 .faq-item:hover {
-  border-color: rgba(204, 255, 0, 0.3);
+  border-color: rgba(254, 186, 49, 0.6);
+  box-shadow: 0 4px 16px rgba(254, 186, 49, 0.15);
 }
 
 .faq-question-heading {
@@ -2609,36 +2611,38 @@ button,
   align-items: center;
   gap: 12px;
   font-family: var(--font-body, sans-serif);
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--color-text-dark, #111);
+  font-size: 14.5px;
+  font-weight: 700;
+  color: #141416;
   letter-spacing: 0.2px;
-  line-height: 1.4;
+  line-height: 1.45;
   transition: color 0.2s ease;
 }
 
 .faq-item.open .faq-question {
-  color: #CCFF00;
+  color: #141416;
 }
 
 .faq-icon {
   flex-shrink: 0;
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
-  background: rgba(204, 255, 0, 0.12);
+  background: rgba(254, 186, 49, 0.18);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1;
-  color: #CCFF00;
-  font-weight: 300;
-  transition: transform 0.3s ease;
+  color: #B45309;
+  font-weight: 700;
+  transition: transform 0.3s ease, background-color 0.2s, color 0.2s;
 }
 
 .faq-item.open .faq-icon {
   transform: rotate(45deg);
+  background: var(--color-accent, #FEBA31);
+  color: #111111;
 }
 
 .faq-answer {
@@ -2649,34 +2653,33 @@ button,
 
 .faq-answer p {
   padding: 0 18px 18px;
-  font-size: 13.5px;
-  line-height: 1.65;
-  color: var(--color-text-muted, #666);
+  font-size: 14px;
+  line-height: 1.7;
+  color: #4B5563;
   margin: 0;
 }
 
 /* ==========================================================================
    GLOBAL SITE FOOTER
    ========================================================================== */
-.site-footer {
-  text-align: center;
+.site-footer-bar {
+  margin-top: 30px;
   padding: 24px 20px;
-  font-size: 12px;
-  color: #888;
-  font-family: var(--font-body, sans-serif);
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
-  letter-spacing: 0.5px;
-  position: relative;
-  z-index: 10;
+  border-top: 1px dashed var(--color-border-dashed);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: 8px;
 }
 
-@media (max-width: 900px) {
-  .site-footer {
-    padding-bottom: calc(120px + env(safe-area-inset-bottom, 0px)) !important;
-    background-color: var(--color-card-bg);
-    border-top: 1px solid rgba(0, 0, 0, 0.08);
-    color: #666;
-  }
+.site-footer-bar p {
+  margin: 0 0 10px 0;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.site-footer-bar a:hover {
+  text-decoration: underline !important;
+  color: #B45309 !important;
 }
 
 /* ==========================================================================
@@ -2704,7 +2707,7 @@ button,
   padding: 12px 16px 12px 14px;
   border-radius: 16px 16px 4px 16px;
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35), 0 2px 8px rgba(0, 0, 0, 0.15);
-  border: 1px solid rgba(204, 255, 0, 0.3);
+  border: 1px solid rgba(254, 186, 49, 0.35);
   margin-bottom: 12px;
   max-width: 250px;
   animation: waBubbleFloat 3.5s ease-in-out infinite alternate;
@@ -2758,7 +2761,7 @@ button,
 .wa-teaser-author {
   font-size: 11.5px;
   font-weight: 700;
-  color: #CCFF00;
+  color: var(--color-accent, #FEBA31);
   letter-spacing: 0.5px;
 }
 
