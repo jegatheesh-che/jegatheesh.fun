@@ -2589,6 +2589,14 @@ button,
   border-color: rgba(204, 255, 0, 0.3);
 }
 
+.faq-question-heading {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: inherit;
+}
+
 .faq-question {
   width: 100%;
   background: none;
