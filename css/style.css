@@ -2662,24 +2662,94 @@ button,
 /* ==========================================================================
    GLOBAL SITE FOOTER
    ========================================================================== */
-.site-footer-bar {
-  margin-top: 30px;
-  padding: 24px 20px;
-  border-top: 1px dashed var(--color-border-dashed);
+.site-footer {
+  max-width: 960px;
+  margin: 30px auto 40px;
+  padding: 24px 28px;
+  background: #0f1015;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
   text-align: center;
-  background: rgba(0, 0, 0, 0.03);
-  border-radius: 8px;
+  font-family: var(--font-body, -apple-system, BlinkMacSystemFont, sans-serif);
+  position: relative;
+  z-index: 10;
 }
 
-.site-footer-bar p {
+.site-footer p {
   margin: 0 0 10px 0;
-  font-size: 13px;
+  font-size: 13.5px;
   line-height: 1.6;
+  color: #D1D5DB;
 }
 
-.site-footer-bar a:hover {
-  text-decoration: underline !important;
-  color: #B45309 !important;
+.site-footer .footer-brand {
+  color: #FFFFFF;
+  font-size: 14.5px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.site-footer .footer-brand strong {
+  color: var(--color-accent, #FEBA31);
+  font-weight: 800;
+}
+
+.site-footer .footer-nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 12px;
+  margin-bottom: 14px;
+}
+
+.site-footer .footer-nav-links a {
+  color: #E2E8F0;
+  font-size: 12.5px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 5px 12px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  transition: all 0.2s ease;
+}
+
+.site-footer .footer-nav-links a:hover {
+  background: rgba(254, 186, 49, 0.15);
+  border-color: var(--color-accent, #FEBA31);
+  color: #FFFFFF;
+  transform: translateY(-1px);
+}
+
+.site-footer .footer-contact-line {
+  font-size: 13px;
+  color: #9CA3AF;
+  margin-bottom: 8px;
+}
+
+.site-footer .footer-contact-line a {
+  color: #F3F4F6;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+
+.site-footer .footer-contact-line a:hover {
+  color: var(--color-accent, #FEBA31);
+}
+
+.site-footer .footer-copy {
+  font-size: 12px;
+  color: #6B7280;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .site-footer {
+    margin: 20px 14px calc(110px + env(safe-area-inset-bottom, 0px));
+    padding: 20px 16px;
+  }
 }
 
 /* ==========================================================================
