@@ -4,20 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- ============================================================
+    <!--==========================================================
        PRIMARY SEO METADATA
-  ============================================================ -->
-  <title>Jegatheesh Web Studio | Websites for Photographers by Jegatheesh</title>
-  <meta name="description" content="Jegatheesh Web Studio by Jegatheesh designs high-converting, professional portfolio websites built specifically for photographers. Turn your work into a client-booking machine.">
+    ============================================================-->
+  <title>Jegatheesh Web Studio | Professional Photographer Website Design</title>
+  <meta name="description" content="Jegatheesh Web Studio crafts high-converting portfolio websites for photographers. Turn your photography into bookings — get your custom website today.">
   <meta name="keywords" content="Jegatheesh, Jegatheesh Web Studio, Jegatheesh website, photographer website design, photography portfolio website, website for photographers, professional website for photographers, photography business website">
   <meta name="author" content="Jegatheesh">
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content="index, follow, max-image-preview:large">
   <meta name="msvalidate.01" content="DDC641A4ABEE60214298D648EEAF2D22">
   <link rel="canonical" href="https://www.jegatheesh.fun/">
 
-  <!-- ============================================================
+  <!--============================================================
        OPEN GRAPH (Facebook, WhatsApp, LinkedIn previews)
-  ============================================================ -->
+  ============================================================-->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.jegatheesh.fun/">
   <meta property="og:title" content="Jegatheesh Web Studio | Websites for Photographers by Jegatheesh">
@@ -30,7 +30,7 @@
   <meta property="og:locale" content="en_IN">
 
   <!-- ============================================================
-       TWITTER / X CARD
+              TWITTER / X CARD
   ============================================================ -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Jegatheesh Web Studio | Websites for Photographers by Jegatheesh">
@@ -54,6 +54,14 @@
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
   <link rel="preconnect" href="https://cdn.simpleicons.org" crossorigin>
+
+  <!-- ============================================================
+       PERFORMANCE — Preload critical local font files
+  ============================================================ -->
+  <link rel="preload" href="assets/fonts/montserrat/Montserrat-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/fonts/montserrat/Montserrat-Black.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/fonts/open-sans/OpenSans-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/fonts/open-sans/OpenSans-Semibold.ttf" as="font" type="font/ttf" crossorigin>
 
   <!-- ============================================================
        STYLESHEETS
@@ -123,7 +131,6 @@
         "image": "https://www.jegatheesh.fun/assets/images/jegatheesh.jpeg",
         "email": "jegatheesh.s1110@gmail.com",
         "telephone": "+919042454014",
-        "priceRange": "$$",
         "areaServed": [
           { "@type": "AdministrativeArea", "name": "Tamil Nadu" },
           { "@type": "Country", "name": "India" },
@@ -268,15 +275,7 @@
           { "@type": "Country", "name": "United States" },
           { "@type": "Country", "name": "United Kingdom" },
           { "@type": "Country", "name": "Australia" }
-        ],
-        "offers": {
-          "@type": "Offer",
-          "priceSpecification": {
-            "@type": "PriceSpecification",
-            "priceCurrency": "INR",
-            "minPrice": "14999"
-          }
-        }
+        ]
       },
       {
         "@type": "BreadcrumbList",
@@ -396,14 +395,6 @@
           },
           {
             "@type": "Question",
-            "name": "How much does a photography portfolio website cost with Jegatheesh Web Studio?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A custom photography portfolio website designed by Jegatheesh Web Studio starts from ₹14,999 (approximately $199 USD for international clients) for an essential single-page portfolio, with complete multi-page studio and client booking websites typically ranging between ₹24,999 and ₹44,999 ($350 to $599 USD). Every project includes bespoke visual design, mobile responsiveness, zero image compression quality loss, on-page Google SEO setup, and direct WhatsApp / email inquiry integration. Exact pricing depends on your gallery scope, custom animations, and specific booking features. We provide a transparent, upfront fixed quote with zero hidden recurring fees before starting any project."
-            }
-          },
-          {
-            "@type": "Question",
             "name": "What is the process for working with Jegatheesh Web Studio?",
             "acceptedAnswer": {
               "@type": "Answer",
@@ -460,7 +451,7 @@
     <div class="mobile-drawer" id="mobileDrawer">
       <div class="mobile-drawer-header">
         <div class="mobile-avatar-wrap">
-          <img src="assets/images/jegatheesh.webp" alt="Jegatheesh — Website Designer for Photographers" class="mobile-avatar" width="48" height="48">
+          <img src="assets/images/jegatheesh.webp" alt="Jegatheesh — Website Designer for Photographers" class="mobile-avatar" width="48" height="48" srcset="assets/images/jegatheesh.webp 96w, assets/images/jegatheesh.jpeg 96w" sizes="48px">
         </div>
         <div class="mobile-profile-info">
           <h4>Jegatheesh</h4>
@@ -589,7 +580,7 @@
             <div class="home-intro-content">
               <span class="greeting-text">JEGATHEESH WEB STUDIO &middot; FOR PHOTOGRAPHERS</span>
               <h1 class="main-title">
-                I'M <span class="name-highlight" data-text="JEGATHEESH">JEGATHEESH</span>
+                <span class="name-highlight" data-text="JEGATHEESH">JEGATHEESH</span> <span class="h1-sub">Web Studio · Websites for Photographers</span>
               </h1>
               
               <div class="badge-wrapper">
@@ -611,7 +602,17 @@
           <!-- Right Column: Signature Hero Portrait -->
           <div class="home-right">
             <div class="portrait-box">
-              <img src="assets/images/jegatheesh.webp" alt="Jegatheesh — Website Designer for Photographers" class="hero-img" id="heroImg" width="400" height="500" loading="eager">
+              <figure class="hero-portrait-fig">
+                <img src="assets/images/jegatheesh.webp"
+                     alt="Jegatheesh — Website Designer for Photographers"
+                     class="hero-img"
+                     id="heroImg"
+                     width="400" height="500"
+                     loading="eager"
+                     srcset="assets/images/jegatheesh.webp 400w, assets/images/jegatheesh.jpeg 400w"
+                     sizes="(max-width: 768px) 100vw, 400px">
+                <figcaption class="visually-hidden">Jegatheesh, Founder of Jegatheesh Web Studio — bespoke portfolio websites for photographers</figcaption>
+              </figure>
             </div>
           </div>
         </div>
@@ -626,7 +627,7 @@
         <aside class="left-sidebar" id="leftSidebar">
           <!-- Sidebar Headshot -->
           <div class="sidebar-avatar-wrap">
-            <img src="assets/images/jegatheesh.webp" alt="Jegatheesh — Website Designer for Photographers" class="sidebar-avatar" width="80" height="80">
+            <img src="assets/images/jegatheesh.webp" alt="Jegatheesh — Website Designer for Photographers" class="sidebar-avatar" width="80" height="80" srcset="assets/images/jegatheesh.webp 160w, assets/images/jegatheesh.jpeg 160w" sizes="80px">
           </div>
           
           <!-- Yellow Navigation Column -->
@@ -676,6 +677,19 @@
         <!-- Right Main Content Area (Dynamic Views) -->
         <main class="main-content" id="mainContent">
 
+          <!-- TABLE OF CONTENTS (Jump Links for SEO & Accessibility) -->
+          <nav class="toc-container" id="tocContainer" aria-label="Table of Contents">
+            <span class="toc-label">QUICK NAV</span>
+            <div class="toc-links">
+              <button class="toc-link nav-trigger" data-target="about" aria-label="Jump to About Me">About Me</button>
+              <button class="toc-link nav-trigger" data-target="skills" aria-label="Jump to Skills">Skills</button>
+              <button class="toc-link nav-trigger" data-target="portfolio" aria-label="Jump to Portfolio">Portfolio</button>
+              <button class="toc-link nav-trigger" data-target="faq" aria-label="Jump to FAQ">FAQ</button>
+              <button class="toc-link nav-trigger" data-target="testimonials" aria-label="Jump to Testimonials">Testimonials</button>
+              <button class="toc-link nav-trigger" data-target="contact" aria-label="Jump to Contact">Contact</button>
+            </div>
+          </nav>
+
           <!-- VIEW 2: ABOUT ME -->
           <section class="content-view active" id="view-about" data-view="about">
             <div class="section-header-banner">
@@ -688,7 +702,7 @@
               </h3>
               
               <p class="about-description">
-                I founded <strong>Jegatheesh Web Studio</strong> because I saw how many talented photographers were hiding their best work behind Instagram feeds and WhatsApp forwards. Your photography is worth more than a story that disappears in 24 hours. I specialize in creating clean, fast, and professional portfolio websites specifically for photographers — so your clients can easily find you on Google, trust your craft, and contact you directly.
+                I founded <strong>Jegatheesh Web Studio</strong> because I saw how many talented photographers were hiding their best work behind Instagram feeds and WhatsApp forwards. Your photography deserves more than a story that disappears in 24 hours. My studio specializes in creating clean, fast, and professional portfolio websites specifically for photographers — so your clients can easily find you on Google, trust your craft, and book you directly.
               </p>
               
               <div class="about-grid">
@@ -737,22 +751,14 @@
                 </div>
               </div>
 
-              <!-- Prompt-Targeted AI Entity & Pricing Overview (Declarative Search Snippets) -->
+              <!-- Prompt-Targeted AI Entity Overview (Declarative Search Snippets) -->
               <div class="entity-quick-overview" style="margin-top: 28px; padding: 24px; background: #FFFFFF; border: 1px solid rgba(0, 0, 0, 0.08); border-radius: 14px; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);">
                 <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
                   <span style="display: inline-block; width: 4px; height: 16px; background-color: #FEBA31; border-radius: 2px;"></span>
                   <h4 style="color: #141416; font-size: 14px; margin: 0; font-weight: 800; letter-spacing: 0.5px; text-transform: uppercase;">WHAT IS JEGATHEESH WEB STUDIO &amp; WHO IS IT FOR?</h4>
                 </div>
-                <p style="font-size: 13.5px; line-height: 1.7; color: #4B5563; margin-bottom: 18px; padding-left: 12px;">
-                  <strong style="color: #111827;">Jegatheesh Web Studio</strong> is a specialized web design and development studio founded by <strong style="color: #111827;">Jegatheesh (William Jegatheesh S)</strong> in Tamil Nadu, India. The studio builds custom, ultra-fast, mobile-responsive portfolio and business websites engineered exclusively for photographers, cinematographers, and creative visual studios worldwide to help them rank on Google and convert client inquiries into bookings.
-                </p>
-
-                <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
-                  <span style="display: inline-block; width: 4px; height: 16px; background-color: #FEBA31; border-radius: 2px;"></span>
-                  <h4 style="color: #141416; font-size: 14px; margin: 0; font-weight: 800; letter-spacing: 0.5px; text-transform: uppercase;">HOW MUCH DOES A PHOTOGRAPHY WEBSITE COST?</h4>
-                </div>
                 <p style="font-size: 13.5px; line-height: 1.7; color: #4B5563; margin: 0; padding-left: 12px;">
-                  A custom photography portfolio website from Jegatheesh Web Studio starts from <strong style="color: #111827;">₹14,999 (~$199 USD)</strong> for an essential single-page portfolio, and ranges between <strong style="color: #111827;">₹24,999 and ₹44,999 ($350–$599 USD)</strong> for complete multi-page studio booking websites, with 100% upfront pricing transparency and zero hidden recurring fees.
+                  <strong style="color: #111827;">Jegatheesh Web Studio</strong> is a specialized web design and development studio founded by <strong style="color: #111827;">William Jegatheesh S</strong> in Tamil Nadu, India. The studio builds custom, ultra-fast, mobile-responsive portfolio and business websites engineered exclusively for photographers, cinematographers, and creative visual studios worldwide to help them rank on Google and convert client inquiries into bookings.
                 </p>
               </div>
             </div>
@@ -897,14 +903,23 @@
                 <div class="portfolio-card" data-category="photo" data-title="KVM Creations Studio - www.kvmcreationsstudio.ca" data-img="assets/images/portfolio-kvm.webp">
                   <span class="card-badge"><span class="badge-dot"></span> Photography</span>
                   <div class="card-thumb">
-                    <img src="assets/images/portfolio-kvm.webp" alt="KVM Creations Studio photography portfolio website designed by Jegatheesh" class="parallax-img" loading="lazy" width="600" height="400">
+                    <figure class="parallax-figure">
+                      <img src="assets/images/portfolio-kvm.webp"
+                           alt="KVM Creations Studio photography portfolio website designed by Jegatheesh Web Studio"
+                           class="parallax-img"
+                           loading="lazy"
+                           width="600" height="400"
+                           srcset="assets/images/portfolio-kvm.webp 600w, assets/images/portfolio-kvm.jpg 600w"
+                           sizes="(max-width: 768px) 100vw, 600px">
+                      <figcaption class="visually-hidden">KVM Creations Studio — photography portfolio website (www.kvmcreationsstudio.ca)</figcaption>
+                    </figure>
                     <div class="card-overlay">
                       <div class="overlay-info">
                         <span class="overlay-title">KVM Creations Studio</span>
                         <span class="overlay-cat">www.kvmcreationsstudio.ca</span>
                         <a href="https://www.jegatheesh.fun/case-studies/kvm-creations-studio/" class="overlay-case-link" style="color: #FEBA31; font-size: 11px; font-weight: 800; text-decoration: underline; pointer-events: auto; margin-top: 2px;" onclick="event.stopPropagation();">Case Study &rarr;</a>
                       </div>
-                      <a href="https://www.kvmcreationsstudio.ca" target="_blank" class="card-action-btn" aria-label="View Live Project" onclick="event.stopPropagation();">
+                      <a href="https://www.kvmcreationsstudio.ca" target="_blank" rel="noopener" class="card-action-btn" aria-label="View Live Project" onclick="event.stopPropagation();">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                           <line x1="5" y1="12" x2="19" y2="12"></line>
                           <polyline points="12 5 19 12 12 19"></polyline>
@@ -917,13 +932,22 @@
                 <div class="portfolio-card" data-category="photo" data-title="Ram G Productions - www.ramgprods.com" data-img="assets/images/portfolio-ramg.webp">
                   <span class="card-badge"><span class="badge-dot"></span> Photography</span>
                   <div class="card-thumb">
-                    <img src="assets/images/portfolio-ramg.webp" alt="Ram G Productions photography business website built by Jegatheesh" class="parallax-img" loading="lazy" width="600" height="400">
+                    <figure class="parallax-figure">
+                      <img src="assets/images/portfolio-ramg.webp"
+                           alt="Ram G Productions photography business website built by Jegatheesh Web Studio"
+                           class="parallax-img"
+                           loading="lazy"
+                           width="600" height="400"
+                           srcset="assets/images/portfolio-ramg.webp 600w, assets/images/portfolio-ramg.jpg 600w"
+                           sizes="(max-width: 768px) 100vw, 600px">
+                      <figcaption class="visually-hidden">Ram G Productions — visual media studio website (www.ramgprods.com)</figcaption>
+                    </figure>
                     <div class="card-overlay">
                       <div class="overlay-info">
                         <span class="overlay-title">Ram G Productions</span>
                         <span class="overlay-cat">www.ramgprods.com</span>
                       </div>
-                      <a href="https://www.ramgprods.com" target="_blank" class="card-action-btn" aria-label="View Live Project" onclick="event.stopPropagation();">
+                      <a href="https://www.ramgprods.com" target="_blank" rel="noopener" class="card-action-btn" aria-label="View Live Project" onclick="event.stopPropagation();">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                           <line x1="5" y1="12" x2="19" y2="12"></line>
                           <polyline points="12 5 19 12 12 19"></polyline>
@@ -936,14 +960,23 @@
                 <div class="portfolio-card" data-category="photo" data-title="Surya Photography - www.suryaphotography.ca" data-img="assets/images/portfolio-surya.webp">
                   <span class="card-badge"><span class="badge-dot"></span> Photography</span>
                   <div class="card-thumb">
-                    <img src="assets/images/portfolio-surya.webp" alt="Surya Photography professional portfolio website created by Jegatheesh" class="parallax-img" loading="lazy" width="600" height="400">
+                    <figure class="parallax-figure">
+                      <img src="assets/images/portfolio-surya.webp"
+                           alt="Surya Photography professional portfolio website created by Jegatheesh Web Studio"
+                           class="parallax-img"
+                           loading="lazy"
+                           width="600" height="400"
+                           srcset="assets/images/portfolio-surya.webp 600w, assets/images/portfolio-surya.jpg 600w"
+                           sizes="(max-width: 768px) 100vw, 600px">
+                      <figcaption class="visually-hidden">Surya Photography — wedding and portrait portfolio website (www.suryaphotography.ca)</figcaption>
+                    </figure>
                     <div class="card-overlay">
                       <div class="overlay-info">
                         <span class="overlay-title">Surya Photography</span>
                         <span class="overlay-cat">www.suryaphotography.ca</span>
                         <a href="https://www.jegatheesh.fun/case-studies/surya-photography/" class="overlay-case-link" style="color: #FEBA31; font-size: 11px; font-weight: 800; text-decoration: underline; pointer-events: auto; margin-top: 2px;" onclick="event.stopPropagation();">Case Study &rarr;</a>
                       </div>
-                      <a href="https://www.suryaphotography.ca" target="_blank" class="card-action-btn" aria-label="View Live Project" onclick="event.stopPropagation();">
+                      <a href="https://www.suryaphotography.ca" target="_blank" rel="noopener" class="card-action-btn" aria-label="View Live Project" onclick="event.stopPropagation();">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                           <line x1="5" y1="12" x2="19" y2="12"></line>
                           <polyline points="12 5 19 12 12 19"></polyline>
@@ -956,13 +989,22 @@
                 <div class="portfolio-card" data-category="engineering" data-title="SMETA Engineering Services - www.smetaengineeringservices.com" data-img="assets/images/portfolio-smeta.webp">
                   <span class="card-badge"><span class="badge-dot"></span> Engineering</span>
                   <div class="card-thumb">
-                    <img src="assets/images/portfolio-smeta.webp" alt="SMETA Engineering Services business website developed by Jegatheesh" class="parallax-img" loading="lazy" width="600" height="400">
+                    <figure class="parallax-figure">
+                      <img src="assets/images/portfolio-smeta.webp"
+                           alt="SMETA Engineering Services business website developed by Jegatheesh Web Studio"
+                           class="parallax-img"
+                           loading="lazy"
+                           width="600" height="400"
+                           srcset="assets/images/portfolio-smeta.webp 600w, assets/images/portfolio-smeta.jpg 600w"
+                           sizes="(max-width: 768px) 100vw, 600px">
+                      <figcaption class="visually-hidden">SMETA Engineering Services — professional business website (www.smetaengineeringservices.com)</figcaption>
+                    </figure>
                     <div class="card-overlay">
                       <div class="overlay-info">
                         <span class="overlay-title">SMETA Engineering</span>
                         <span class="overlay-cat">www.smetaengineeringservices.com</span>
                       </div>
-                      <a href="https://www.smetaengineeringservices.com" target="_blank" class="card-action-btn" aria-label="View Project" onclick="event.stopPropagation();">
+                      <a href="https://www.smetaengineeringservices.com" target="_blank" rel="noopener" class="card-action-btn" aria-label="View Project" onclick="event.stopPropagation();">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                           <line x1="5" y1="12" x2="19" y2="12"></line>
                           <polyline points="12 5 19 12 12 19"></polyline>
@@ -1098,24 +1140,12 @@
                 <div class="faq-item">
                   <h3 class="faq-question-heading">
                     <button class="faq-question" aria-expanded="false">
-                      <span>How much does a photography portfolio website cost with Jegatheesh Web Studio?</span>
-                      <span class="faq-icon">+</span>
-                    </button>
-                  </h3>
-                  <div class="faq-answer">
-                    <p>A custom photography portfolio website designed by Jegatheesh Web Studio starts from ₹14,999 (approximately $199 USD for international clients) for an essential single-page portfolio, with complete multi-page studio and client booking websites typically ranging between ₹24,999 and ₹44,999 ($350 to $599 USD). Every project includes bespoke visual design, mobile responsiveness, zero image compression quality loss, on-page Google SEO setup, and direct WhatsApp / email inquiry integration. Exact pricing depends on your gallery scope, custom animations, and specific booking features. We provide a transparent, upfront fixed quote with zero hidden recurring fees before starting any project.</p>
-                  </div>
-                </div>
-
-                <div class="faq-item">
-                  <h3 class="faq-question-heading">
-                    <button class="faq-question" aria-expanded="false">
                       <span>What is the process for working with Jegatheesh Web Studio?</span>
                       <span class="faq-icon">+</span>
                     </button>
                   </h3>
                   <div class="faq-answer">
-                    <p>Working with Jegatheesh Web Studio follows a structured four-step process designed to get your website launched smoothly within 1 to 2 weeks. First, we start with an initial consultation via WhatsApp or email to understand your photography niche, visual aesthetic, and client booking goals. Second, you share your selected photographs, brand guidelines, and package information, and we build a bespoke design draft tailored to your craft. Third, we refine the site based on your feedback, optimizing load speed, mobile layout, and search engine metadata. Finally, we launch your website on your custom domain, test all contact flows, and provide straightforward guidance on maintaining your new digital hub.</p>
+                    <p>Our studio follows a structured four-step process designed to get your website launched smoothly within 1 to 2 weeks. First, we start with an initial consultation via WhatsApp or email to understand your photography niche, visual aesthetic, and client booking goals. Second, you share your selected photographs, brand guidelines, and package information, and we build a bespoke design draft tailored to your craft. Third, we refine the site based on your feedback, optimizing load speed, mobile layout, and search engine metadata. Finally, we launch your website on your custom domain, test all contact flows, and provide straightforward guidance on maintaining your new digital hub.</p>
                   </div>
                 </div>
 
@@ -1127,7 +1157,7 @@
                     </button>
                   </h3>
                   <div class="faq-answer">
-                    <p>Yes, Jegatheesh Web Studio works actively with photographers, cinematographers, and creative businesses worldwide, including clients across Canada, the United States, the United Kingdom, and Australia. Our collaborative workflow is fully remote and asynchronous, leveraging WhatsApp, email, and Google Drive for seamless communication across different time zones. We have delivered live projects for international studios such as KVM Creations Studio and Surya Photography in Canada. International payments are accepted conveniently through secure global payment methods.</p>
+                    <p>Yes, the studio works actively with photographers, cinematographers, and creative businesses worldwide, including clients across Canada, the United States, the United Kingdom, and Australia. Our collaborative workflow is fully remote and asynchronous, leveraging WhatsApp, email, and Google Drive for seamless communication across different time zones. We have delivered live projects for international studios such as KVM Creations Studio and Surya Photography in Canada. International payments are accepted conveniently through secure global payment methods.</p>
                   </div>
                 </div>
 
@@ -1139,7 +1169,7 @@
                     </button>
                   </h3>
                   <div class="faq-answer">
-                    <p>Unlike general freelance web designers who rely on generic, bloated page templates, Jegatheesh Web Studio specializes exclusively in high-performance websites for photographers and creative visual artists. We engineer bespoke code from scratch to ensure your high-resolution photography loads instantly without compression artifacts or slowdowns. We also focus heavily on conversion architecture, embedding frictionless WhatsApp booking triggers, local search engine optimization (SEO), and AI search discoverability so your website actively attracts paying clients. Furthermore, you work directly with founder Jegatheesh for dedicated, 1-on-1 communication throughout your project.</p>
+                    <p>Unlike general freelance web designers who rely on generic, bloated page templates, our studio specializes exclusively in high-performance websites for photographers and creative visual artists. We engineer bespoke code from scratch to ensure your high-resolution photography loads instantly without compression artifacts or slowdowns. We also focus heavily on conversion architecture, embedding frictionless WhatsApp booking triggers, local search engine optimization (SEO), and AI search discoverability so your website actively attracts paying clients. Furthermore, you work directly with the founder for dedicated, 1-on-1 communication throughout your project.</p>
                   </div>
                 </div>
 
@@ -1167,7 +1197,7 @@
                       </svg>
                     </div>
                     <div class="t-meta">
-                      <h5 class="t-name">KVM Team</h5>
+                      <h3 class="t-name">KVM Team</h3>
                       <span class="t-role">KVM Creations Studio</span>
                       <p class="t-quote">They built a fantastic website for my photography studio. It's super fast, looks great, and my clients love it!</p>
                     </div>
@@ -1176,7 +1206,7 @@
                     <div class="t-stars" aria-label="5 stars rating">
                       <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
                     </div>
-                    <div class="t-date">12.07.2026</div>
+                    <time class="t-date" datetime="2026-07-12">12.07.2026</time>
                   </div>
                 </div>
 
@@ -1190,7 +1220,7 @@
                       </svg>
                     </div>
                     <div class="t-meta">
-                      <h5 class="t-name">Ram G</h5>
+                      <h3 class="t-name">Ram G</h3>
                       <span class="t-role">Ram G Productions</span>
                       <p class="t-quote">I'm really happy with the new portfolio site. The design perfectly shows off my photography work and the whole process was very smooth.</p>
                     </div>
@@ -1199,7 +1229,7 @@
                     <div class="t-stars" aria-label="5 stars rating">
                       <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
                     </div>
-                    <div class="t-date">28.07.2026</div>
+                    <time class="t-date" datetime="2026-07-28">28.07.2026</time>
                   </div>
                 </div>
 
@@ -1213,7 +1243,7 @@
                       </svg>
                     </div>
                     <div class="t-meta">
-                      <h5 class="t-name">Surya</h5>
+                      <h3 class="t-name">Surya</h3>
                       <span class="t-role">Surya Photography</span>
                       <p class="t-quote">Amazing job on our photography website! It looks incredibly professional and clean. We've already seen an increase in bookings.</p>
                     </div>
@@ -1222,7 +1252,7 @@
                     <div class="t-stars" aria-label="5 stars rating">
                       <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
                     </div>
-                    <div class="t-date">05.08.2026</div>
+                    <time class="t-date" datetime="2026-08-05">05.08.2026</time>
                   </div>
                 </div>
 
@@ -1236,7 +1266,7 @@
                       </svg>
                     </div>
                     <div class="t-meta">
-                      <h5 class="t-name">Rainis</h5>
+                      <h3 class="t-name">Rainis</h3>
                       <span class="t-role">SMETA Engineering Services</span>
                       <p class="t-quote">Great experience working with them. Our engineering services website looks modern, works perfectly on mobile, and exactly matched our needs.</p>
                     </div>
@@ -1245,7 +1275,7 @@
                     <div class="t-stars" aria-label="5 stars rating">
                       <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
                     </div>
-                    <div class="t-date">22.08.2026</div>
+                    <time class="t-date" datetime="2026-08-22">22.08.2026</time>
                   </div>
                 </div>
 
@@ -1266,7 +1296,7 @@
                   <div class="ncc-dot dot-tr"></div>
                   <div class="ncc-dot dot-bl"></div>
                   <div class="ncc-dot dot-br"></div>
-                  <h4 class="ncc-title">Get in touch with us!<br>Lets talk!</h4>
+                  <h3 class="ncc-title">Get in touch with us!<br>Let's talk!</h3>
                 </div>
                 <div class="ncc-body">
                   <a href="https://www.jegatheesh.fun" target="_blank" rel="noopener" class="ncc-row">
@@ -1448,7 +1478,7 @@
       &nbsp;·&nbsp;
       <a href="https://www.jegatheesh.fun">www.jegatheesh.fun</a>
     </p>
-    <p class="footer-copy">&copy; 2026 Jegatheesh Web Studio. All rights reserved.</p>
+    <p class="footer-copy">&copy; <time datetime="2026">2026</time> Jegatheesh Web Studio. All rights reserved.</p>
   </footer>
 
   <!-- ============================================================

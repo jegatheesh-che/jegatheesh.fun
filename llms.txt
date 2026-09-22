@@ -1,7 +1,7 @@
 Jegatheesh Web Studio is a specialized web design studio founded by Jegatheesh (William Jegatheesh S), based in Tamil Nadu, India. The studio engineers custom, ultra-fast portfolio and business websites specifically for photographers, cinematographers, and creative visual studios worldwide.
 
 Core Services:
-- Photographer Portfolio Website Design (Starts from ₹14,999 / $199 USD)
+- Photographer Portfolio Website Design
 - Client Booking Funnels & WhatsApp Inquiry Integration
 - High-Performance Zero-Compression Photo Galleries
 - Local & Technical Search Engine Optimization (SEO)
